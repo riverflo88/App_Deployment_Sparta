@@ -91,6 +91,12 @@ How to get the script into  EC
 
   `chmod +x myscript.sh`
 
+* transfer to remote from local 
+
+`scp -i se-emeka-key-pair.pem /local/path/myscript.sh ubuntu@ec2-54-216-215-193.eu-west-1.compute.amazonaws.com:~`
+
 * transfer to remote from local (conncetion with EC2 must exist)
 
-  `scp myscript.sh ubuntu@ec2-54-216-215-193.eu-west-1.compute.amazonaws.com`
+  `scp myscript.sh ubuntu@ec2-54-216-215-193.eu-west-1.compute.amazonaws.com:~`
+
+
