@@ -94,6 +94,8 @@ How to get the script into  EC
 * transfer to remote from local 
 
 `scp -i se-emeka-key-pair.pem /local/path/myscript.sh ubuntu@ec2-54-216-215-193.eu-west-1.compute.amazonaws.com:~`
+
+
 scp -i <keypair loc> <source> <destination>
 
 * transfer to remote from local (conncetion with EC2 must exist)
